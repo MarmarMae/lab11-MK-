@@ -11,18 +11,18 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
 
     def test_subtract(self):
-        self.assertEqual(sub(1, 1), 0)
-        self.assertEqual(sub(-2, 1), -3)
-        self.assertEqual(sub(2, -1), 3)
+        self.assertEqual(subtract(1, 1), 0)
+        self.assertEqual(subtract(-2, 1), -3)
+        self.assertEqual(subtract(2, -1), 3)
 
     def test_divide_by_zero(self):
         b = div(self.b)
         self.assertFalse(b == 0)
 
     def test_logarithm(self):
-        self.assertEqual(log(2, 2), 1)
-        self.assertEqual(log(4, 2), 2)
-        self.assertEqual(log(2, 4), 0.5)
+        self.assertEqual(logarithm(2, 2), 1)
+        self.assertEqual(logarithm(4, 2), 2)
+        self.assertEqual(logarithm(2, 4), 0.5)
 
     def test_log_invalid_base(self):
         b = log(self.b)
