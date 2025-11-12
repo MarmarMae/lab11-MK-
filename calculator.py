@@ -1,3 +1,6 @@
+# https://github.com/MarmarMae/lab11-MK-OBJ
+# Partner 1: Marley Kight
+# Partner 2:
 """
 calculator.py
 - Defines functions used to create a simple calculator

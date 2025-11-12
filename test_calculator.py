@@ -1,3 +1,6 @@
+# https://github.com/MarmarMae/lab11-MK-OBJ
+# Partner 1: Marley Kight
+# Partner 2:
 import unittest
 from calculator import *
 
