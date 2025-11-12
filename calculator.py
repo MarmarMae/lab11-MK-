@@ -4,7 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-
 import math
 
 def square_root(a):
@@ -42,3 +41,5 @@ def log(a, b):
 
 def exp(a, b):
     return a ** b
+
+
