@@ -25,7 +25,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(logarithm(2, 4), 0.5)
 
     def test_log_invalid_base(self):
-        b = log(self.b)
+        b = logarithm(self.b)
         self.assertFalse(b == 0)
         self.assertFalse(b <= 0)
 
@@ -62,7 +62,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
-            log(0, 5)
+            logarithm(0, 5)
 
 
     def test_hypotenuse(self): # 3 assertions
